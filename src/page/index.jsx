@@ -586,209 +586,201 @@ const Index = () => {
             </div>
           </div>
         </section>
-        {/* ----- Certifications ----- */}
-        <section
-          id="certifications"
-          className="py-20 px-4 sm:px-6 lg:px-8"
-          style={{ backgroundColor: "#0d0d0e" }}
-        >
-          <div className="mx-auto" style={{ maxWidth: "1100px" }}>
-            <h2
-              className="reveal text-4xl sm:text-5xl font-bold mb-12 text-center"
-              style={{ color: "#e7e7ea" }}
-            >
-              <span style={{ color: "#ffd138" }}>Certifications</span>
-            </h2>
-            {/* Front-End Web Development */}
-<div
-  className="reveal p-8 space-y-4 rounded-lg"
-  style={{
-    backgroundColor: "#151517",
-    border: "1px solid #2a2a30",
-    boxShadow: "0 10px 30px rgba(0,0,0,.35)",
-  }}
+      {/* ----- Certifications ----- */}
+<section
+  id="certifications"
+  className="py-20 px-4 sm:px-6 lg:px-8"
+  style={{ backgroundColor: "#0d0d0e" }}
 >
-  <div className="flex justify-between items-start flex-wrap gap-2">
-    <div>
-      <h3
-        className="text-2xl font-bold"
-        style={{ color: "#ffd138" }}
-      >
-        Front-End Web Development
-      </h3>
-      <p style={{ color: "#e7e7ea" }}>University of Moratuwa</p>
-    </div>
-  </div>
-  <p style={{ color: "#9a9aa3" }}>
-    Learned core front-end concepts including HTML, CSS, JavaScript,
-    and responsive design to build modern web interfaces.
-  </p>
-  <div className="flex items-center gap-2">
-    <span style={{ color: "#9a9aa3", fontSize: "0.875rem" }}>
-      Code: nP4AHqDKGF
-    </span>
-    <a
-      href="https://open.uom.lk/lms/mod/customcert/verify_certificate.php"
-      target="_blank"
-      rel="noopener noreferrer"
-      style={{
-        color: "#ffd138",
-        fontSize: "0.875rem",
-        textDecoration: "underline",
-      }}
-      className="inline-flex items-center gap-2"
+  <div className="mx-auto" style={{ maxWidth: "1100px" }}>
+    <h2
+      className="reveal text-4xl sm:text-5xl font-bold mb-12 text-center"
+      style={{ color: "#e7e7ea" }}
     >
-      Verify Credential <ExternalLink size={14} />
-    </a>
-  </div>
-</div>
+      <span style={{ color: "#ffd138" }}>Certifications</span>
+    </h2>
 
+    {/* ALL CARDS MUST BE INSIDE THIS div */}
+    <div className="space-y-6">
 
-            <div className="space-y-6">
-              {/* Python */}
-              <div
-                className="reveal p-8 space-y-4 rounded-lg"
-                style={{
-                  backgroundColor: "#151517",
-                  border: "1px solid #2a2a30",
-                  boxShadow: "0 10px 30px rgba(0,0,0,.35)",
-                }}
-              >
-                <div className="flex justify-between items-start flex-wrap gap-2">
-                  <div>
-                    <h3
-                      className="text-2xl font-bold"
-                      style={{ color: "#ffd138" }}
-                    >
-                      Python for Beginners
-                    </h3>
-                    <p style={{ color: "#e7e7ea" }}>University of Moratuwa</p>
-                  </div>
-                </div>
-                <p style={{ color: "#9a9aa3" }}>
-                  Gained a solid foundation in Python programming, covering
-                  syntax, logic building, and problem-solving for real-world
-                  applications.
-                </p>
-                <div className="flex items-center gap-2">
-                  <span style={{ color: "#9a9aa3", fontSize: "0.875rem" }}>
-                    Code: IvKFd53WYq
-                  </span>
-                  <a
-                    href="https://open.uom.lk/lms/mod/customcert/verify_certificate.php"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{
-                      color: "#ffd138",
-                      fontSize: "0.875rem",
-                      textDecoration: "underline",
-                    }}
-                    className="inline-flex items-center gap-2"
-                  >
-                    Verify Credential <ExternalLink size={14} />
-                  </a>
-                </div>
-              </div>
-
-              {/* Figma */}
-              <div
-                className="reveal p-8 space-y-4 rounded-lg"
-                style={{
-                  backgroundColor: "#151517",
-                  border: "1px solid #2a2a30",
-                  boxShadow: "0 10px 30px rgba(0,0,0,.35)",
-                }}
-              >
-                <div className="flex justify-between items-start flex-wrap gap-2">
-                  <div>
-                    <h3
-                      className="text-2xl font-bold"
-                      style={{ color: "#ffd138" }}
-                    >
-                      User Interface Design with Figma
-                    </h3>
-                    <p style={{ color: "#e7e7ea" }}>Alison</p>
-                  </div>
-                </div>
-                <p style={{ color: "#9a9aa3" }}>
-                  Learned to design intuitive and visually appealing interfaces
-                  using Figma, focusing on layout, prototyping, and user
-                  experience principles.
-                </p>
-                <a
-                  href="https://alison.com/certification/check/cf29e131fd"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{
-                    color: "#ffd138",
-                    fontSize: "0.875rem",
-                    textDecoration: "underline",
-                  }}
-                  className="inline-flex items-center gap-2"
-                >
-                  Verify Credential <ExternalLink size={14} />
-                </a>
-              </div>
-
-              {/* SEO */}
-              <div
-                className="reveal p-8 space-y-4 rounded-lg"
-                style={{
-                  backgroundColor: "#151517",
-                  border: "1px solid #2a2a30",
-                  boxShadow: "0 10px 30px rgba(0,0,0,.35)",
-                }}
-              >
-                <div className="flex justify-between items-start flex-wrap gap-2">
-                  <div>
-                    <h3
-                      className="text-2xl font-bold"
-                      style={{ color: "#ffd138" }}
-                    >
-                      The Ultimate SEO Blueprint
-                    </h3>
-                    <p style={{ color: "#e7e7ea" }}>Alison</p>
-                  </div>
-                </div>
-                <p style={{ color: "#9a9aa3" }}>
-                  Mastered search engine optimization strategies, including
-                  keyword research, on-page optimization, and analytics to
-                  improve website visibility and rankings.
-                </p>
-                <div className="flex items-center gap-2">
-                  <span style={{ color: "#9a9aa3", fontSize: "0.875rem" }}>
-                    Code: 4146-47127065
-                  </span>
-                  <a
-                    href="https://alison.com/certification/check/a60a055cd6"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{
-                      color: "#ffd138",
-                      fontSize: "0.875rem",
-                      textDecoration: "underline",
-                    }}
-                    className="inline-flex items-center gap-2"
-                  >
-                    Verify Credential <ExternalLink size={14} />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* ----- Languages ----- */}
-        <section
-          id="languages"
-          className="py-20 px-4 sm:px-6 lg:px-8"
-          style={{ backgroundColor: "#0d0d0e" }}
-        >
-          <div className="mx-auto" style={{ maxWidth: "1100px" }}>
-            <h2
-              className="reveal text-4xl sm:text-5xl font-bold mb-12 text-center"
-              style={{ color: "#e7e7ea" }}
+      {/* Front-End Web Development */}
+      <div
+        className="reveal p-8 space-y-4 rounded-lg"
+        style={{
+          backgroundColor: "#151517",
+          border: "1px solid #2a2a30",
+          boxShadow: "0 10px 30px rgba(0,0,0,.35)",
+        }}
+      >
+        <div className="flex justify-between items-start flex-wrap gap-2">
+          <div>
+            <h3
+              className="text-2xl font-bold"
+              style={{ color: "#ffd138" }}
             >
+              Front-End Web Development
+            </h3>
+            <p style={{ color: "#e7e7ea" }}>University of Moratuwa</p>
+          </div>
+        </div>
+        <p style={{ color: "#9a9aa3" }}>
+          Learned core front-end concepts including HTML, CSS, JavaScript,
+          and responsive design to build modern web interfaces.
+        </p>
+        <div className="flex items-center gap-2">
+          <span style={{ color: "#9a9aa3", fontSize: "0.875rem" }}>
+            Code: nP4AHqDKGF
+          </span>
+          <a
+            href="https://open.uom.lk/lms/mod/customcert/verify_certificate.php"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              color: "#ffd138",
+              fontSize: "0.875rem",
+              textDecoration: "underline",
+            }}
+            className="inline-flex items-center gap-2"
+          >
+            Verify Credential <ExternalLink size={14} />
+          </a>
+        </div>
+      </div>
+
+      {/* Python for Beginners */}
+      <div
+        className="reveal p-8 space-y-4 rounded-lg"
+        style={{
+          backgroundColor: "#151517",
+          border: "1px solid #2a2a30",
+          boxShadow: "0 10px 30px rgba(0,0,0,.35)",
+        }}
+      >
+        <div className="flex justify-between items-start flex-wrap gap-2">
+          <div>
+            <h3
+              className="text-2xl font-bold"
+              style={{ color: "#ffd138" }}
+            >
+              Python for Beginners
+            </h3>
+            <p style={{ color: "#e7e7ea" }}>University of Moratuwa</p>
+          </div>
+        </div>
+        <p style={{ color: "#9a9aa3" }}>
+          Gained a solid foundation in Python programming, covering
+          syntax, logic building, and problem-solving for real-world
+          applications.
+        </p>
+        <div className="flex items-center gap-2">
+          <span style={{ color: "#9a9aa3", fontSize: "0.875rem" }}>
+            Code: IvKFd53WYq
+          </span>
+          <a
+            href="https://open.uom.lk/lms/mod/customcert/verify_certificate.php"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              color: "#ffd138",
+              fontSize: "0.875rem",
+              textDecoration: "underline",
+            }}
+            className="inline-flex items-center gap-2"
+          >
+            Verify Credential <ExternalLink size={14} />
+          </a>
+        </div>
+      </div>
+
+      {/* Figma */}
+      <div
+        className="reveal p-8 space-y-4 rounded-lg"
+        style={{
+          backgroundColor: "#151517",
+          border: "1px solid #2a2a30",
+          boxShadow: "0 10px 30px rgba(0,0,0,.35)",
+        }}
+      >
+        <div className="flex justify-between items-start flex-wrap gap-2">
+          <div>
+            <h3
+              className="text-2xl font-bold"
+              style={{ color: "#ffd138" }}
+            >
+              User Interface Design with Figma
+            </h3>
+            <p style={{ color: "#e7e7ea" }}>Alison</p>
+          </div>
+        </div>
+        <p style={{ color: "#9a9aa3" }}>
+          Learned to design intuitive and visually appealing interfaces
+          using Figma, focusing on layout, prototyping, and user
+          experience principles.
+        </p>
+        <a
+          href="https://alison.com/certification/check/cf29e131fd"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            color: "#ffd138",
+            fontSize: "0.875rem",
+            textDecoration: "underline",
+          }}
+          className="inline-flex items-center gap-2"
+        >
+          Verify Credential <ExternalLink size={14} />
+        </a>
+      </div>
+
+      {/* SEO */}
+      <div
+        className="reveal p-8 space-y-4 rounded-lg"
+        style={{
+          backgroundColor: "#151517",
+          border: "1px solid #2a2a30",
+          boxShadow: "0 10px 30px rgba(0,0,0,.35)",
+        }}
+      >
+        <div className="flex justify-between items-start flex-wrap gap-2">
+          <div>
+            <h3
+              className="text-2xl font-bold"
+              style={{ color: "#ffd138" }}
+            >
+              The Ultimate SEO Blueprint
+            </h3>
+            <p style={{ color: "#e7e7ea" }}>Alison</p>
+          </div>
+        </div>
+        <p style={{ color: "#9a9aa3" }}>
+          Mastered search engine optimization strategies, including
+          keyword research, on-page optimization, and analytics to
+          improve website visibility and rankings.
+        </p>
+        <div className="flex items-center gap-2">
+          <span style={{ color: "#9a9aa3", fontSize: "0.875rem" }}>
+            Code: 4146-47127065
+          </span>
+          <a
+            href="https://alison.com/certification/check/a60a055cd6"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              color: "#ffd138",
+              fontSize: "0.875rem",
+              textDecoration: "underline",
+            }}
+            className="inline-flex items-center gap-2"
+          >
+            Verify Credential <ExternalLink size={14} />
+          </a>
+        </div>
+      </div>
+
+    </div> {/* END space-y-6 */}
+  </div>
+</section>
+
               <span style={{ color: "#ffd138" }}>Languages</span>
             </h2>
 
