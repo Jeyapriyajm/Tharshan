@@ -603,50 +603,6 @@ const Index = () => {
     {/* ALL CARDS MUST BE INSIDE THIS div */}
     <div className="space-y-6">
 
-      {/* Front-End Web Development */}
-      <div
-        className="reveal p-8 space-y-4 rounded-lg"
-        style={{
-          backgroundColor: "#151517",
-          border: "1px solid #2a2a30",
-          boxShadow: "0 10px 30px rgba(0,0,0,.35)",
-        }}
-      >
-        <div className="flex justify-between items-start flex-wrap gap-2">
-          <div>
-            <h3
-              className="text-2xl font-bold"
-              style={{ color: "#ffd138" }}
-            >
-              Front-End Web Development
-            </h3>
-            <p style={{ color: "#e7e7ea" }}>University of Moratuwa</p>
-          </div>
-        </div>
-        <p style={{ color: "#9a9aa3" }}>
-          Learned core front-end concepts including HTML, CSS, JavaScript,
-          and responsive design to build modern web interfaces.
-        </p>
-        <div className="flex items-center gap-2">
-          <span style={{ color: "#9a9aa3", fontSize: "0.875rem" }}>
-            Code: nP4AHqDKGF
-          </span>
-          <a
-            href="https://open.uom.lk/lms/mod/customcert/verify_certificate.php"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              color: "#ffd138",
-              fontSize: "0.875rem",
-              textDecoration: "underline",
-            }}
-            className="inline-flex items-center gap-2"
-          >
-            Verify Credential <ExternalLink size={14} />
-          </a>
-        </div>
-      </div>
-
       {/* Python for Beginners */}
       <div
         className="reveal p-8 space-y-4 rounded-lg"
@@ -691,6 +647,51 @@ const Index = () => {
           </a>
         </div>
       </div>
+
+         {/* Front-End Web Development */}
+      <div
+        className="reveal p-8 space-y-4 rounded-lg"
+        style={{
+          backgroundColor: "#151517",
+          border: "1px solid #2a2a30",
+          boxShadow: "0 10px 30px rgba(0,0,0,.35)",
+        }}
+      >
+        <div className="flex justify-between items-start flex-wrap gap-2">
+          <div>
+            <h3
+              className="text-2xl font-bold"
+              style={{ color: "#ffd138" }}
+            >
+              Front-End Web Development
+            </h3>
+            <p style={{ color: "#e7e7ea" }}>University of Moratuwa</p>
+          </div>
+        </div>
+        <p style={{ color: "#9a9aa3" }}>
+          Learned core front-end concepts including HTML, CSS, JavaScript,
+          and responsive design to build modern web interfaces.
+        </p>
+        <div className="flex items-center gap-2">
+          <span style={{ color: "#9a9aa3", fontSize: "0.875rem" }}>
+            Code: nP4AHqDKGF
+          </span>
+          <a
+            href="https://open.uom.lk/lms/mod/customcert/verify_certificate.php"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              color: "#ffd138",
+              fontSize: "0.875rem",
+              textDecoration: "underline",
+            }}
+            className="inline-flex items-center gap-2"
+          >
+            Verify Credential <ExternalLink size={14} />
+          </a>
+        </div>
+      </div>
+
 
       {/* Figma */}
       <div
