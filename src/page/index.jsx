@@ -601,7 +601,7 @@ const Index = () => {
     </h2>
 
     {/* ALL CARDS MUST BE INSIDE THIS div */}
-    <div className="space-y-6">
+    <div className="space-y-10 md:space-y-12">
 
       {/* Python for Beginners */}
       <div
